@@ -16,7 +16,7 @@ pub fn filter[T](values []T, checker fn (T) bool) []T {
 
 
 
-//each
+//each (should be named map but it cannot be)
 pub fn each[F, T](values []F, checker fn (F) T) []T {
 	mut result := []T{}
 	for i in values {

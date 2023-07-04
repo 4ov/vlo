@@ -11,6 +11,7 @@
 fn each[F, T](values []F, checker fn (F) T) []T
 ```
 
+each (should be named map but it cannot be)
 
 [[Return to contents]](#Contents)
 
