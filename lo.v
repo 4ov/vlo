@@ -2,7 +2,6 @@ module lo
 
 
 //check every value in values and execlude the falsy ones
-[inline]
 pub fn filter[T](values []T, checker fn (T) bool) []T {
 	mut result := []T{}
 	for value in values{
